@@ -1,0 +1,379 @@
+* { 
+    color: black;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*-------------------------------------------------------*/
+
+img { 
+    display: flex;
+    width: 100%;
+}
+
+.img-shoes { 
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.img-shoes img { width: 10rem;
+height: 10rem;
+
+
+}
+/*-------------------------------------------------------*/
+.Franca { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Foreva { 
+    display: flex;
+    flex-direction: column;
+}
+
+.Fresh { 
+    display: flex;
+    flex-direction: column;
+}
+
+.Fresh2 { 
+    display: flex;
+    flex-direction: column;
+}
+/*-------------------------------------------------------*/
+.NW { 
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    
+    
+}
+/*-------------------------------------------------------*/
+.triple-img { 
+
+    display: flex;
+
+    justify-content: space-between;
+    width: 35rem;
+    height: 35rem;
+    gap: 15rem;
+
+}
+
+
+.triple-text { 
+
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    flex-direction: row;
+    justify-content: space-around;
+  
+
+
+}
+
+.triple-text h2 h3 h4 { 
+    margin-right: 2rem;
+}
+
+/*-------------------------------------------------------*/ 
+.triple1  { 
+    display: flex;
+    flex-direction: column;
+       }
+
+.triple1-text { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+  
+}     
+
+.triple2  {
+    display: flex;
+    flex-direction: column;
+}
+
+.triple3  {
+    display: flex;
+    flex-direction: column;
+}   
+
+/*-------------------------------------------------------*/
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+.sale-shoes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.sale-60 {
+    display: flex;
+}
+
+
+/*------------shoes-black-----------*/
+
+.shoes-black { 
+    display: flex;
+}
+.shoes-black-img { 
+    display: flex;
+    width: 50%;
+}
+
+.shoes-black-text { 
+       
+    display: flex;
+     width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end
+
+}
+
+.shoes-black-text1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+   
+.h3-black {
+    text-decoration: underline;
+}
+
+.h3-black:hover {
+    cursor: pointer;
+} 
+
+/*-------------winter------------*/
+
+
+
+
+.shoes-winter {
+    display: flex;
+}
+
+
+
+.shoes-winter-img {
+    display: flex;
+    width: 50%;
+}
+
+.shoes-winter-text {
+    display: flex;
+     width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end
+
+
+ }
+
+.shoes-winter-text1 { 
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.h3-winter {
+    text-decoration: underline;
+}
+.h3-winter:hover {
+    cursor: pointer;
+}       
+
+
+
+
+/*--------------Nine-west----------------*/
+
+.nine-west { 
+    display: flex;
+}
+.nine-west-img {     
+    display: flex;
+    width: 50%;
+   
+}
+
+.nine-west-text { 
+       
+    display: flex;
+     width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end
+
+}
+
+.nine-west-text1 {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+   
+.h3-nine-west {
+    text-decoration: underline;
+}
+
+.h3-nine-west:hover {
+    cursor: pointer;
+} 
+
+/*-----------------------watches--------------------------------*/
+
+
+
+
+.watches {
+    display: flex;
+}
+
+
+
+.watches-img {
+    display: flex;
+    width: 50%;
+}
+
+.watches-text {
+    display: flex;
+     width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end
+
+
+ }
+
+.watches-text1 { 
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.h3-watches {
+    text-decoration: underline;
+}
+.h3-watches:hover {
+    cursor: pointer;
+}       
+
+
+
+/*-----------------------handbags--------------------------------*/
+
+
+.handbags { 
+    display: flex;
+}
+.handbags-img { 
+    display: flex;
+    width: 50%;
+}
+
+.handbags-text { 
+       
+    display: flex;
+     width: 50%;
+    justify-content: flex-start;
+    align-items: flex-end
+
+}
+
+.handbags-text1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+   
+.h3-handbags {
+    text-decoration: underline;
+}
+
+.h3-handbags:hover {
+    cursor: pointer;
+} 
+
+/*-------------------------explore--------------------------------*/
+
+.explore { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+.explore-text { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.explore-text1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.explore-img { 
+    
+    
+    margin-top: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+    
+.explore-img img { 
+    width: 80%;
+    height: 80%;
+    
+    margin-top: 2rem;
+    display: flex;
+   
+}
+
+
+/*-------------------------recive--------------------------------*/
+
+.recive {
+    display: flex;
+}

@@ -1,0 +1,143 @@
+*{ 
+box-sizing: border-box;
+
+    padding: 0%;
+    margin: 0%;
+}
+
+/* HEADER -----------------------------------------------------------------------------------------------------*/ 
+body::before {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-top: 0.7vh
+6.07091px
+;
+    height: 0.5vh;
+    background-color: black;
+}
+
+
+header { 
+
+display: flex;
+flex-direction: column;}
+
+.container {
+margin-top: 0%}
+
+a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;}
+
+h1 { 
+display: flex;
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+margin: 0%;}
+
+.title-left { 
+display: flex;
+justify-content: space-between;}
+ 
+.title-right { 
+display: flex;
+justify-content: space-between;
+background-color: azure;}
+
+
+.nav-top-lover {  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: small;}
+   
+
+.nav-top-right { 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-small}
+
+
+
+
+/* Footer -----------------------------------------------------------------------------------------------------*/ 
+
+
+
+.columns { 
+height: 20%;
+display: flex;   
+flex-direction: row;
+width: 100%;
+justify-content: space-around;}
+
+
+
+
+.column1 { 
+display: flex;
+flex-direction: column;}
+      
+.sign { 
+background-color: black;
+color: antiquewhite;
+width: 7rem;}
+
+
+.sign:hover {
+background-color: #fff;
+color: black;}
+
+
+.h2 { 
+display: flex;
+font-size: small;}
+
+
+
+.column2 { 
+display: flex;
+flex-direction: column;}
+
+.column3 { 
+display: flex;
+flex-direction: column;}
+
+
+.buttons { 
+    
+    width: 16rem;
+     display: flex;
+    flex-direction: column;
+    border: 2px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.buttons button { 
+    background-color: rgb(252, 250, 250);}
+
+.buttons button:hover {  background-color: #fff;
+   color: #69777c;
+ ;}
+
+.rov-socials { 
+    
+
+   font-size: large;
+   gap: 1.5rem;
+   display: flex;
+   width: 20rem;}
+
+span {
+    display: flex;
+}   
+
+span img { 
+    height: 1.5rem;
+    width: 1.5rem;}
+
+span img:hover{ 
+    filter: brightness(0.8) contrast(1.2);
+    transform: scale(1.1);
+    transition: transform 0.2s, filter 0.2s;
+    cursor: pointer;}
